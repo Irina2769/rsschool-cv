@@ -125,6 +125,7 @@ Faculty of International Relations
 ### Udemy:
 
 - [The Complete Web Developer course](адрес "https://www.udemy.com/course/the-complete-web-developer-course-2/")
+- The Project Management Course: Beginner to PROject Manager
 
 
 ## Languages:
