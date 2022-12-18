@@ -102,7 +102,7 @@ Project manager and deputy head of the technical department:
  
  + Direction: search for investors and attraction of investments.
 
-## Education and courses:
+## Education:
 
 ### Belarusian State University
 Faculty of International Relations

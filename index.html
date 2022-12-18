@@ -1,1 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+ <div class="container">
+    <nav class="navigation">
+<ul>
+   <li><a href="#contacts-nav">Contact information</a></li>
+   <li><a href="#about-nav">About me</a></li>
+   <li> <a href="#skills-nav">Skills and Proficiency</a></li>
+   <li><a href="#code-nav">Code example</a></li>
+   <li><a href="#work-nav">Work experience</a></li>
+   <li><a href="#education-nav">Education</a></li>
+   <li><a href="#projects-nav">Projects</a></li>
+   <li><a href="#courses-nav">Courses</a></li>
+   <li><a href="#languages-nav">Languages</a></li>
+</ul>
+    </nav>
+        </div>
+</header>    
+
+
+    <main>
+<div class="container">
+<section class="profile" id="profile-nav">
+    <div >
+<img class="profile-img" src="assets/img/my_photo.jpg" alt="profile-foto" height="300px" width="300px";>
+    </div>
+    <div class="my_name">
+<h1>Irina Karelina </h1>
+<hr>
+<h3>Junior Front-end Developer </h3>
+    </div>
+</section>
+
+<hr>
+
+<section class="about-myself">
+<section class="contacts" id="contacts-nav">
+    <h2>Contact information:</h2>
+    <ul>
+    <li class="place">Warsaw, Poland</li>
+    <li class="phone">Phone: +48 515 636 069</li>
+    <li class="mail">Email:<a href = "mailto: irinakarelina473@gmail.com">irinakarelina473@gmail.com</a></li>
+    <li class="telegram">Telegram:<a href="https://t.me/IrinaK98"> @IrinaK98</a> </li>
+    <li>GitHub: <a href="https://github.com/Irina2769">Irina2769</a></li>
+    <li>Discord: Ирина (@Irina2769)</li>
+    </ul>
+    </section>
+
+    <section class="about_me" id="about-nav">
+        <h2>About me:</h2>
+        <p> As a student, I participated in the organization of the<span><a href="https://startupheart.by/">"StartUP HEART" </a></span> project in the direction of "Investors", where I was engaged in the search for investors and attracting investments in the project. I also did an internship at the Industrial Park "Great Stone" as a project manager specialist. During my 5th year at the university, I worked at ArtisMedia as a project manager and deputy head of the technical department.</p>
+        <p> I am currently working on a startup called Unleashy. I am responsible for the application landing page, and I am also responsible for app's localization and ASO promotion. I want to move from project management to web development, as it is very interesting to create something of my own in practice and see the result. While working as a project manager in a web studio, I watched the work of programmers every day and realized that I also really want to be directly involved in the creation of the site and applications.</p>
+        <p> Perfectionist by nature, I take tasks seriously, always try to do it as efficiently and conscientiously as possible. Working as a project manager gave me invaluable experience in communicating with the team and customers. I have good communication and business writing skills. I am convinced that it is always necessary to develop and learn something new. I am sure that my diligence and persistence will help me become an excellent front-end developer in the future.</p>
+        </section> 
+</section>
+
+<hr>
+
+<section class="about-myself my_skills">
+<section class="skills" id="skills-nav">
+<h2>Skills and Proficiency:</h2>
+    <ul>
+<li>HTML5, CSS3;</li>
+<li>JavaScript Basics;</li>
+<li>Git, GitHub;</li>
+<li>VS Code;</li>
+<li>Xcode;</li>
+<li>Agile;</li>
+<li>Figma;</li>
+<li>Analytical and problem-solving skills;</li>
+<li>Time management and organizational skills;</li>
+<li>Risk and cost management skills;</li>
+<li>Project lifecycle management;</li>
+<li>Agile framework;</li>
+<li>Asana, Trello, Jira.</li>
+</ul>
+</section>
+
+<section class="code-example" id="code-nav">
+<h2>Code example:</h2>
+
+<pre>
+<code>let reviews = document.querySelectorAll('.review');
+let submit = document.querySelector('.submit-button');
+let error = document.querySelector('.error');
+
+
+for (let review of reviews) {
+review.onchange = function () {
+  if (review.dataset.evaluation === 'bad') {
+      submit.disabled=true;
+      error.classList.add('shown');
+      }
+      else {
+        submit.disabled=false;
+        error.classList.remove('shown');
+      }
+      }
+   };
+
+</code>
+</pre>
+</section>
+</section>
+
+<hr>
+
+<section class="experience  my_skills" id="work-nav">
+<h2>Work experience:</h2>
+<section>
+<h3>- StartUp Unleashy</h3>
+<h4>Localization manager, Junior Front-end Developer:</h4>
+<ul>
+    <li>ASO promotion;</li>
+    <li>Creation of landing page;</li>
+    <li>Localization and translation.</li>
+</ul>
+
+
+
+
+<h3>- Web-studio ArtisMedia</h3>
+<h4>Project manager and deputy head of the technical department:</h4>
+<ul>
+    <li>Software project management in the field of web development;</li>
+    <li>Creating product release roadmaps, backlog management;</li>
+    <li>Project planning (version, delivery, success criteria, KPIs);</li>
+    <li>Communication with the client as a project manager;</li>
+    <li>Working in accordance with accepted methodologies and processes (Agile, Waterfall);</li>
+    <li>Project risk management and control of the deliverables;</li>
+    <li>Maintaining accurate information about the project status internally (via means of time and task tracking tools).</li>
+</ul>
+
+
+<h3>- Industrial Park "Great Stone"</h3>
+<h4>Internship (project management specialist):</h4>
+<ul>
+    <li>Translation of documentation from Chinese into Russian and vice versa;</li>
+    <li>Organization of events, start-up competitions;</li>
+    <li>Work with documentation; </li>
+    <li>Communication with potential residents of the park.</li>
+</ul>
+
+
+<h3>- Project StartUP HEART</h3>
+<h4>Startup project organizer:</h4>
+<ul>
+    <li>Direction: search for investors and attraction of investments.</li>
+</ul>
+</section>
+</section>
+  
+<hr>
+
+<section class=" my_skills my_education">
+<section class="education skills" id="education-nav">
+    <h2>Education:</h2>
+    <h3>Belarusian State University</h3>
+    <h4>Faculty of International Relations</h4>
+    <ul>
+        <li>International oriental studies, translator-referent (Chinese and English)</li>
+    </ul>
+</section>
+
+
+<section class="projects " id="projects-nav">
+     <h2>Projects:</h2>
+     <ul>
+        <li><a href="https://unleashy.io">Unleashy:</a></li> 
+        <img class="image" src="assets/img/First_main.jpg" height="300px" width="150px">
+     </ul>
+</section>
+</section>
+
+
+<hr>
+
+<section class="my_skills  my_education">
+     <section class="courses skills" id="courses-nav">
+        <h2>Courses:</h2>
+        <h3>- Coursera</h3>
+        <ul>
+            <li><a href="https://www.coursera.org/learn/uva-darden-project-management">Fundamentals of Project Planning and Management;</a></li>
+            <li><a href="https://www.coursera.org/learn/upravleniya-proektami-agile-scrum">Agile и Scrum в работе над проектами и продуктами.</a></li>
+            
+        </ul>
+
+        <h3>- HTML academy</h3>
+        <ul>
+            <li><a href="https://htmlacademy.ru/courses">Exercises.</a></li>
+        </ul>
+ 
+        <h3>- Udemy</h3>
+        <ul>
+            <li><a href="https://www.udemy.com/course/the-complete-web-developer-course-2/" >The Complete Web Developer course;</a></li>
+            <li><a href="https://www.udemy.com/course/the-project-management-course-beginner-to-project-manager/">The Project Management Course: Beginner to PROject Manager.</a></li>
+        </ul>
+</section>
+
+<section class="languages" id="languages-nav">
+<h2>Languages:</h2>
+<ul>
+    <li>English - Intermediate/Upper-intermediate (according to the online test at<a href="www.efset.org"> www.efset.org);</a></li> 
+    <img class="image" src="assets/img/certificate_72.png" alt="certificate" width="200px" height="200px">
+    <li>Russian - Native;</li>
+    <li>Chinese - Upper-Intermediate (HSK4; HSKK2);</li>
+    <li>Polish - Basic.</li>
+</ul>
+</section>
+</section>
+</div>
+    </main>
+
+    <div class="container">
+
+
+
+    <footer >
+        <section class="footer">
+<a class="my-github" href="https://github.com/Irina2769/">
+    <pre>
+    <img class="github-icon" src="assets/img/25231.png" alt="Github icon" width="50px" height="50px"> <p>Visit my Github</p>
+</pre>
+</a>
+
+<p class="copyright">© 2022</p>
+<a href="https://rs.school/js-stage0/">
+<img src="https://rs.school/images/rs_school_js.svg" alt="RSschool Logo" width="150px" height="120px">
+</a>
+        </section>
+    </footer>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
 
