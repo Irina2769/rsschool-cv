@@ -1,0 +1,222 @@
+* {
+box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding:0;
+    margin: 0;
+    background: rgb(245, 209, 215);
+    font-family:'Times New Roman', Times, serif;
+  }
+
+
+.navigation  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:rgb(243, 174, 229);
+    padding:30px 20px 30px 0px;
+    border-bottom: 1px solid purple;
+}
+
+
+
+
+ .navigation ul{
+list-style: none;
+padding-left: 0;
+margin: 0;
+font-size:larger;
+  }
+
+ a {
+    text-decoration: none;
+    color:purple;
+    padding: 10px 15px;
+}
+
+ a:hover {
+color: rgb(178, 23, 178);
+outline: dotted rgb(73, 19, 73);
+}
+
+
+   
+ .navigation  ul li { 
+    display:inline-block;
+}
+ 
+
+
+ .profile {
+display:flex;
+
+flex-direction: row;
+justify-content:space-evenly;
+flex-wrap: wrap;
+padding: 20px;
+ }
+
+
+.my_name{
+    font-size: 25px;
+    align-items: center;
+    padding:40px 40px 0 0;
+}
+
+ .profile-img {
+border-radius: 50%;
+ }
+
+ .about-myself{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: stretch;
+flex-basis: 1 1;
+margin: 20px 30px 20px 20px;
+ }
+
+
+ .contacts{
+padding:20px 320px 20px 20px;
+font-size: larger;
+line-height: 30px;
+list-style-image: url(assets/img/diamond.fill@2x.png);
+ }
+
+ .about_me{
+    padding: 20px;
+    padding-left: 50px;
+ }
+
+ hr {
+border: 1px solid purple;
+ }
+
+.my_skills{
+justify-content: start;    
+flex-basis: 50% 50%;
+margin: 20px 30px 20px 20px;
+}
+
+.skills {
+padding: 20px 340px 20px 20px;
+}
+
+.code-example {
+padding: 20px;
+padding-left: 50px;
+}
+
+.skills ul li{
+    list-style-image: url(assets/img/diamond.fill@2x.png);
+    padding-bottom: 5px;
+}
+
+.experience {
+    margin: 20px 30px 20px 40px;
+    list-style-image: url(assets/img/diamond.fill@2x.png);
+}
+
+.my_education{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: stretch;
+    flex-basis: 50% 50%; 
+    margin: 20px 30px 20px 20px;
+
+}
+
+
+.education{
+padding-right: 150px;
+}
+
+.projects{
+    padding-left: 50px;
+    list-style-image: url(assets/img/diamond.fill@2x.png);
+    padding-top: 20px;
+}
+
+
+.courses{
+    padding-right:150px;
+}
+
+.languages{
+    padding-left: 60px;
+    padding-top: 20px;
+    list-style-image: url(assets/img/diamond.fill@2x.png);
+
+}
+
+.courses a:hover{
+    outline: none;
+}
+
+.languages a:hover{
+    outline: none;
+}
+
+footer a:hover{
+    outline: none;
+}
+
+
+.contacts a:hover{
+    outline: none;
+}
+
+.about_me a:hover{
+    outline: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .image{
+    padding:10px 0px 10px 0px;
+    border-radius: 15%;
+  }
+
+  .projects a:hover{
+    outline: none;
+}
+
+
+.hr-footer{
+
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    justify-items: center;
+    justify-content: center;
+}
+
+.copyright{
+padding-top: 30px;
+font-size: 30px;
+} 
+
+footer {
+    
+    border-top: 6px solid purple;
+    background-color:rgb(243, 174, 229);
+}
+
+.my-github{
+    padding-top:20px;
+}
