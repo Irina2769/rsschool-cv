@@ -85,9 +85,10 @@ margin: 20px 30px 20px 20px;
 
 
  .contacts{
-padding:20px 360px 20px 20px;
+padding:20px 320px 20px 20px;
 font-size: larger;
 line-height: 30px;
+list-style-image: url(assets/img/diamond.fill@2x.png);
  }
 
  .about_me{
@@ -120,7 +121,7 @@ padding-left: 50px;
 }
 
 .experience {
-    margin: 20px 30px 20px 20px;
+    margin: 20px 30px 20px 40px;
     list-style-image: url(assets/img/diamond.fill@2x.png);
 }
 
@@ -148,7 +149,7 @@ padding-right: 160px;
 
 
 .courses{
-    padding-right:180px;
+    padding-right:240px;
 }
 
 .languages{
@@ -216,7 +217,8 @@ footer {
     background-color:rgb(243, 174, 229);
 }
 
-.contacts {
-list-style-image: url(assets/img/diamond.fill@2x.png);
+.my-github{
+    padding-top:20px;
 }
+
 
